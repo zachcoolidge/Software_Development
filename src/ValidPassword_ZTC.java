@@ -1,4 +1,8 @@
 import java.util.Scanner;
+// Class: CSC-490
+// Term: Spring 2023
+// Name: Zachary Coolidge
+// Program Number: Assignment 1 Program 1
 
 /**
  * This is a class that takes a password input from a user and checks

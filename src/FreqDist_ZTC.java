@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
+// Class: CSC-490
+// Term: Spring 2023
+// Name: Zachary Coolidge
+// Program Number: Assignment 1 Program 3
 public class FreqDist_ZTC {
     /**
      * This program takes an arbitrary number of inputs and outputs a formatted list containing each number inputted, and the amount of occurrences.
