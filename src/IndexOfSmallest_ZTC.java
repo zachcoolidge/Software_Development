@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-// Class: CSC-490-002
+// Class: CSC-490
 // Term: Spring 2023
 // Name: Zachary Coolidge
 // Program Number: Assignment 1 Program 2
