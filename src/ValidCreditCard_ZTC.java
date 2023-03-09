@@ -22,8 +22,6 @@ public class ValidCreditCard_ZTC {
         int even_sum = 0;
         for(int i=nums.length-2;i>=0;i-=2){ // for loop starting at the second to last number index
             int doubled_number = Character.getNumericValue(nums[i]) * 2; // turns the character to an integer instead of ascii value
-            //System.out.println("Number to be doubled " + nums[i]);
-            //System.out.println("doubled number ");
             if (doubled_number>=10) {
                 char[] dub_num = Integer.toString(doubled_number).toCharArray();
                 doubled_number= Character.getNumericValue(dub_num[0]) + Character.getNumericValue(dub_num[1]);

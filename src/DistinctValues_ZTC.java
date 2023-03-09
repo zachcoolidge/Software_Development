@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class DistinctValues_ZTC {
     /**
      * Zachary Coolidge
-     *
      * This program takes an input of 10 integers and returns a list of the values excluding all repeated instances of each int.
-     *
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -32,7 +30,7 @@ public class DistinctValues_ZTC {
     /**
      * takes in an array of integers and adds each distinct integer to an arraylist
      * @param int_array an array of integers to check
-     * @return
+     * @return returns an ArrayList containing the distinct values.
      */
     public static ArrayList<Integer> get_values(int[] int_array) {
         ArrayList<Integer> distinct_vals = new ArrayList<>();

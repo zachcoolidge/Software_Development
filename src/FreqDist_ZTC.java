@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class FreqDist_ZTC {
     /**
      * This program takes an arbitrary number of inputs and outputs a formatted list containing each number inputted, and the amount of occurrences.
-     * @param args
+     * @param args args
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); // Create a Scanner object to read user input from the console.
@@ -31,6 +31,11 @@ public class FreqDist_ZTC {
         print_nums(num_list,num_occurrence); // Call the print_nums method, passing in the num_list and num_occurrence arrays.
     }
 
+    /**
+     * helper method that prints each unique number and the number of occurences.
+     * @param list an ArrayList of unique integers
+     * @param occurrences a list of the occurnces of each number.
+     */
     public static void print_nums(ArrayList<Integer> list, int[] occurrences){ // Define a method called print_nums that takes the num_list and num_occurrence arrays as parameters and prints out a formatted frequency distribution table.
         System.out.println("Number   Times");
         for(int i=0;i<list.size();i++){

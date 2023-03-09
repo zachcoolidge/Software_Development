@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class ValidPassword_ZTC {
     /**
      * main
-     *
      * Takes an input from user, specifically a potential password,
      * and passes it to the valid_password_ztc method, where it validates
      * certain criteria. Quits when the user enters N when prompted to retry.
@@ -32,8 +31,6 @@ public class ValidPassword_ZTC {
 
     /**
      * valid_password_ztc
-     *
-     *
      * Takes an inputted String password, and then takes that and
      * validates it through each rule method.
      * @param pass_in a password string
@@ -42,7 +39,7 @@ public class ValidPassword_ZTC {
      */
     public static String valid_password_ztc(String pass_in) {
         StringBuilder result = new StringBuilder();
-        boolean[] rules = {rule_a(pass_in), rule_b(pass_in), rule_c(pass_in), rule_d(pass_in), rule_e(pass_in)}; //passes all of the rules into a boolean array.
+        boolean[] rules = {rule_a(pass_in), rule_b(pass_in), rule_c(pass_in), rule_d(pass_in), rule_e(pass_in)}; //passes all the rules into a boolean array.
         if (rules[0] && rules[1] && rules[2] && rules[3] && rules[4]) {
             result.append("Valid Password");
             return result.toString();
@@ -60,7 +57,6 @@ public class ValidPassword_ZTC {
 
     /**
      * rule_a
-     *
      * rule a checks what the length of the password string is
      * @param input - a password string
      * @return true iff password is 8 or more characters
@@ -72,10 +68,7 @@ public class ValidPassword_ZTC {
 
     /**
      * rule_b
-     *
      * rule b checks if the password is only alphanumeric
-     *
-     *
      * @param input a string password
      * @return true iff the password only contains alphanumeric characters
      *         false iff the password contains other types of characters.
@@ -90,7 +83,6 @@ public class ValidPassword_ZTC {
 
     /**
      * rule_c
-     *
      * rule c checks if the password input has numbers in the password
      * @param input a string password
      * @return true iff the password input has 4 or more numbers
@@ -108,7 +100,6 @@ public class ValidPassword_ZTC {
 
     /**
      * rule_d
-     *
      * rule d checks if the password has lowercase letters
      *
      * @param input a password string
@@ -126,7 +117,6 @@ public class ValidPassword_ZTC {
 
     /**
      * rule_e
-     *
      * rule e checks to see if the password string has uppercase letters
      * @param input a password string
      * @return true iff the password has 3 or more uppercase letters
