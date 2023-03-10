@@ -5,6 +5,7 @@ import java.util.Scanner;
 // Term: Spring 2023
 // Name: Zachary Coolidge
 // Program Number: Assignment 1 Program 4
+// IDE: Intellij
 public class DistinctValues_ZTC {
     /**
      * Zachary Coolidge
@@ -38,7 +39,7 @@ public class DistinctValues_ZTC {
     public static ArrayList<Integer> get_values(int[] int_array) {
         ArrayList<Integer> distinct_vals = new ArrayList<>();
         for (int num: int_array){
-            if (!distinct_vals.contains(num))
+            if (!distinct_vals.contains(num)) // if the ArrayList distinct_vals doesn't have the num contained in it, it adds it to that ArrayList.
                 distinct_vals.add(num);
         }
         return distinct_vals;

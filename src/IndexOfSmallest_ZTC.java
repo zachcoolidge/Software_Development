@@ -4,6 +4,7 @@ import java.util.Scanner;
 // Term: Spring 2023
 // Name: Zachary Coolidge
 // Program Number: Assignment 1 Program 2
+// IDE: Intellij
 /**
  * This program takes an input of 10 integers and outputs the smallest integer in that array.
  */
@@ -34,7 +35,7 @@ public class IndexOfSmallest_ZTC {
     @SuppressWarnings("OptionalGetWithoutIsPresent")
     public static int find_index(int[] num_list){
         int i;
-        int min = Arrays.stream(num_list).min().getAsInt();
+        int min = Arrays.stream(num_list).min().getAsInt(); //turns the num_list into a stream, grabs the minimum index, and then gets the integer value.
         for(i=0;i<num_list.length;i++) {
             if (num_list[i] == min)
                 break;

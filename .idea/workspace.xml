@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e02b4d7-eaf4-4542-8452-de7eecf026a7" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistinctValues_ZTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistinctValues_ZTC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FreqDist_ZTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FreqDist_ZTC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IndexOfSmallest_ZTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IndexOfSmallest_ZTC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidCreditCard_ZTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidCreditCard_ZTC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidPassword_ZTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidPassword_ZTC.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e02b4d7-eaf4-4542-8452-de7eecf026a7" name="Changes" comment="updates to comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,9 +58,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678388933790</updated>
-      <workItem from="1678388934971" duration="1396000" />
+      <workItem from="1678388934971" duration="2312000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates to comments">
+      <created>1678390362222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390362222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updates to comments">
+      <created>1678390461741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390461741</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updates to comments">
+      <created>1678390599960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390599960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates to javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates to javadoc" />
+    <MESSAGE value="updates to comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates to comments" />
   </component>
 </project>

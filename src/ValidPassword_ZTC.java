@@ -3,6 +3,7 @@ import java.util.Scanner;
 // Term: Spring 2023
 // Name: Zachary Coolidge
 // Program Number: Assignment 1 Program 1
+// IDE: Intellij
 
 /**
  * This is a class that takes a password input from a user and checks
@@ -51,8 +52,8 @@ public class ValidPassword_ZTC {
             char[] violations = {'A', 'B', 'C', 'D', 'E'};
             for (int i = 0; i < rules.length; i++) {
                 if (!rules[i]) { //if a rule returns false, then this runs and adds a space between each violation.
-                    result.append(violations[i]);
-                    result.append((char) 32);
+                    result.append(violations[i]); // appends the certain violation to the StringBuilder object
+                    result.append((char) 32);// appends a space between each violation
                 }
             }
         }
